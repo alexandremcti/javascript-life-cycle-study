@@ -1,0 +1,28 @@
+{
+  "name": "javascript-life-cycle-study",
+  "version": "1.0.0",
+  "description": "I've developed this project by having the goal studing the Javascript life cycle. In that, I built a location translate system responsable by receiving data and write on console in table form, and storage in json file.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "npx nodemon --ignore database.json --exec node --experimental-json-modules src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexandremcti/javascript-life-cycle-study.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alexandremcti/javascript-life-cycle-study/issues"
+  },
+  "homepage": "https://github.com/alexandremcti/javascript-life-cycle-study#readme",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "chalk-table": "^1.0.2",
+    "draftlog": "^1.0.13",
+    "nodemon": "^2.0.18"
+  }
+}
